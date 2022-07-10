@@ -203,7 +203,7 @@ body {
   left: -21px;
   width: 2px;
   height: 115px;
-  background: #0bb5f4;
+  /* background: #0bb5f4; */
 }
 
 .resume .resume_right .resume_hobby ul {
@@ -236,4 +236,15 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+.what__i_do {
+  display: block;
+}
+.what__i_do hr {
+  color: #0bb5f4;
+  border: #0bb5f4;
+}
+.what__i_do p {
+  padding-top: .2rem;
 }
